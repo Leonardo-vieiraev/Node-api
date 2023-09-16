@@ -1,0 +1,31 @@
+// Método HTTP para enviar dados na base
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title" : "video de final",
+    "description": "This is the final video of the channel",
+    "duration": 180
+}
+
+###
+
+// Método HTTP para enviar dados na base
+GET http://localhost:3333/videos
+
+###
+
+// Método HTTP para enviar dados na base
+PUT http://localhost:3333/videos/ff634498-38af-4846-8df3-012ffaea5d67
+Content-Type: application/json
+
+{
+    "title": "video 35187",
+    "description": "This is a test",
+    "duration": 250
+}
+
+###
+
+// Método HTTP para deletar dados na base
+DELETE http://localhost:3333/videos/04de6024-ca56-4d9e-8c1f-1f6790899e71
